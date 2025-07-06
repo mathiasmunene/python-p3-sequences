@@ -13,3 +13,16 @@ def print_fibonacci(length):
     while len(fib_list) < length:
         fib_list.append(fib_list[-1] + fib_list[-2])
     print(fib_list)
+
+
+# def fibonacci(n):
+#     if n <= 0:
+#         return []
+#     elif n == 1:
+#         return [0]
+#     elif n == 2:
+#         return [0, 1]
+#     else:
+#         seq = fibonacci(n-1)
+#         seq.append(seq[-1] + seq[-2])
+#         return seq
